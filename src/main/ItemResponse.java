@@ -33,6 +33,7 @@ public class ItemResponse extends JFrame {
 		btnSend.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				System.out.println("Operacion realizada con Éxito");
+				System.out.println("Pedido enviado");
 				dispose();
 				
 			}
